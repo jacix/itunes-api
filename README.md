@@ -1,13 +1,14 @@
 # iTunes API!!
 
 iTunes API is a simple REST server allowing you to query/control a local running
-iTunes instance. Once you have a way to make RESTful API calls to control iTunes,
+Apple Music instance. Once you have a way to make RESTful API calls to control Music,
 you can integrate its control into any of your own software.
 
 This is especially convenient for integrating into any sort of Home Automation
 you might have.
 
-Last confirmed working version of iTunes: `12.2.1`.
+Last confirmed working version of iTunes: `12.2.1`.  Migrated to Apple Music and
+tested with 1.0.6.10.
 
 
 ## Features
@@ -162,3 +163,9 @@ These are the endpoints you can hit to do things.
 * fork
 * create a feature branch
 * open a Pull Request
+
+## Known Issues
+
+* Volume control doesn't work
+* now playing artwork doesn't download
+* Play doesn't restart after Stop is issued
