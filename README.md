@@ -8,7 +8,7 @@ This is especially convenient for integrating into any sort of Home Automation
 you might have.
 
 Last confirmed working version of iTunes: `12.2.1`.  Migrated to Apple Music and
-tested with 1.0.6.10.
+tested with `1.0.6.10`.
 
 
 ## Features
